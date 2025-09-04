@@ -15,7 +15,7 @@ import { usePermissions } from '../../hooks/usePermissions';
 import { User, ROLE_LABELS } from '../../types';
 import { HRData, PaginatedResponse } from '../../types/api';
 import { userService } from '../../services/api';
-import Pagination from '../common/Pagination';
+import Pagination from '../Common/Pagination';
 import { useToast } from '../../contexts/ToastContext';
 
 type UserFilter = 'all' | 'active' | 'pending' | 'inactive';
