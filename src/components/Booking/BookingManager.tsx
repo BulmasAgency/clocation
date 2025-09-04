@@ -7,7 +7,7 @@ import { bookingService } from '../../services/api';
 import { useToast } from '../../contexts/ToastContext';
 import { usePermissions } from '../../hooks/usePermissions';
 import { AccessDenied } from '../Common/PermissionGuard';
-import Pagination, { PaginationInfo } from '../common/Pagination';
+import Pagination, { PaginationInfo } from '../Common/Pagination';
 
 // Fonction pour convertir Booking (API) vers UIBooking (UI)
 const mapApiBookingToUI = (apiBooking: Booking): UIBooking => ({
