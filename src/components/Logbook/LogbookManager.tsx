@@ -3,7 +3,7 @@ import { Logbook as UILogbook } from '../../types';
 import { Logbook as ApiLogbook, LogbookFilters, PaginatedResponse } from '../../types/api';
 import LogbookList from './LogbookList';
 import LogbookForm from './LogbookForm';
-import Pagination from '../common/Pagination';
+import Pagination from '../Common/Pagination';
 import { logbookService } from '../../services/api';
 import { useToast } from '../../contexts/ToastContext';
 import { usePermissions } from '../../hooks/usePermissions';
