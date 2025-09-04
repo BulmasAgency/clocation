@@ -3,7 +3,7 @@ import { MaintenanceSheet } from '../../types';
 import { Maintenance, MaintenanceFilters, PaginatedResponse } from '../../types/api';
 import MaintenanceList from './MaintenanceList';
 import MaintenanceForm from './MaintenanceForm';
-import Pagination from '../common/Pagination';
+import Pagination from '../Common/Pagination';
 import { maintenanceService } from '../../services/api';
 import { useToast } from '../../contexts/ToastContext';
 import { usePermissions } from '../../hooks/usePermissions';
