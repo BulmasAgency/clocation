@@ -91,14 +91,6 @@ const LoginForm: React.FC<LoginFormProps> = ({ onShowRegister }) => {
             </p>
           </div>
 
-          <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-            <p className="text-sm text-gray-600 mb-2">
-              <strong>Comptes de démonstration :</strong>
-            </p>
-            <p className="text-xs text-gray-500">
-              • Admin CLOCATION (mot de passe: password123)
-            </p>
-          </div>
         </div>
       </div>
     </div>
